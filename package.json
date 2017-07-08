@@ -1,7 +1,7 @@
 {
   "name": "brand-icons",
-  "version": "1.2.0",
-  "description": "A beautiful svg + fonts + sass + css collection of brand logos",
+  "version": "1.2.1",
+  "description": "A svg + fonts + sass + css collection of brand logos",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,11 +15,13 @@
   },
   "keywords": [
     "svg",
+    "svg-icons",
     "fonts",
-    "css",
     "sass",
-    "brand-icons",
-    "brand-logos"
+    "brands",
+    "icons",
+    "gulp",
+    "npm"
   ],
   "author": {
     "name": "Yefferson Marín",
