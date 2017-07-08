@@ -39,10 +39,12 @@ Icons collection is available in [danleech/simple-icons](https://github.com/danl
 4. Use as usual.
 
 # Todo
-- Add styles to auto generated `html`.
 - Pull `svg` files using `gulp-git` instead. I tried this but it seems to be really slow (don't know why) and after a while it never clone at all.
 
 # Change log
+## [1.2.0] - 2017-07-08
+- `html` template removed.
+
 ## [1.1.0] - 2017-07-08
 - Minify `css` support.
 - Added header to auto generated files.
