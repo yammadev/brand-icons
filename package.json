@@ -1,6 +1,6 @@
 {
   "name": "brand-icons",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "A svg + fonts + sass + css collection of brand logos",
   "main": "gulpfile.js",
   "scripts": {

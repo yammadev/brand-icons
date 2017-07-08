@@ -1,5 +1,5 @@
 # brand-icons
-A svg + fonts + sass + css collection of brand logos by [Yefferson Marín](https://github.com/yammadev).
+A `svg` + `fonts` + `sass` + `css` collection of brand logos by [Yefferson Marín](https://github.com/yammadev).
 
 # Reference
 Icons collection is available in [danleech/simple-icons](https://github.com/danleech/simple-icons), a free SVG icons for popular brands, maintained by Dan Leech.
@@ -43,6 +43,9 @@ Icons collection is available in [danleech/simple-icons](https://github.com/danl
 - Pull `svg` files using `gulp-git` instead. I tried this but it seems to be really slow (don't know why) and after a while it never clone at all.
 
 # Change log
+## [1.2.4] - 2017-07-08
+- Readme edited.
+
 ## [1.2.3] - 2017-07-08
 - Minor changes.
 
