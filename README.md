@@ -43,6 +43,9 @@ Icons collection is available in [danleech/simple-icons](https://github.com/danl
 - Pull `svg` files using `gulp-git` instead. I tried this but it seems to be really slow (don't know why) and after a while it never clone at all.
 
 # Change log
+## [1.2.3] - 2017-07-08
+- Minor changes.
+
 ## [1.2.2] - 2017-07-08
 - Minor changes.
 
