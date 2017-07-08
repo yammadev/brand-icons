@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= fontName %></title>
+    <link href="css/<%= fontName %>.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1><%= fontName %></h1>
+    <ul>
+      <% _.each(glyphs, function(glyph) { %>
+        <li>
+          <p><i class="<%= className %>-<%= glyph.name %>"></i></p>
+          <p><%= glyph.name %></p>
+          <p><%= glyph.codepoint.toString(16).toUpperCase() %></p>
+        </li>
+      <% }); %>
+    </ul>
+  </body>
+</html>

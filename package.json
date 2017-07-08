@@ -1,0 +1,41 @@
+{
+  "name": "brand-icons",
+  "version": "0.1.0",
+  "description": "A beautiful svg + fonts + sass + css collection of brand logos",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "npm run clean-modules && npm run clean-debug",
+    "clean-modules": "rm -rf node_modules",
+    "clean-debug": "rm -rf npm-debug.log npm-debug.log.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yammadev/brand-icons.git"
+  },
+  "keywords": [
+    "svg",
+    "fonts",
+    "css",
+    "sass",
+    "brand-icons",
+    "brand-logos"
+  ],
+  "author": {
+    "name": "Yefferson Marín",
+    "email": "yefferson.marin@gmail.com",
+    "url": "https://github.com/yammadev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yammadev/brand-icons/issues"
+  },
+  "homepage": "https://github.com/yammadev/brand-icons#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-iconfont": "^8.0.1",
+    "lodash": "^4.17.4"
+  }
+}

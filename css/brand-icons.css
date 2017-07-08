@@ -1,0 +1,722 @@
+/* Font */
+@font-face {
+  font-family: "brand-icons";
+  src: url('../fonts/brand-icons.eot');
+  src: url('../fonts/brand-icons.eot?#iefix') format('eot'),
+       url('../fonts/brand-icons.woff') format('woff'),
+       url('../fonts/brand-icons.ttf') format('truetype'),
+       url('../fonts/brand-icons.svg#brand-icons') format('svg');
+  font-weight: normal;
+  font-style: normal; 
+}
+
+/* Icons */
+.brand-icons-500px:before,
+.brand-icons-aboutme:before,
+.brand-icons-acm:before,
+.brand-icons-addthis:before,
+.brand-icons-aim:before,
+.brand-icons-air:before,
+.brand-icons-airbnb:before,
+.brand-icons-amazon:before,
+.brand-icons-americanexpress:before,
+.brand-icons-android:before,
+.brand-icons-angellist:before,
+.brand-icons-apple:before,
+.brand-icons-appnet:before,
+.brand-icons-asana:before,
+.brand-icons-atom:before,
+.brand-icons-auth0:before,
+.brand-icons-automatic:before,
+.brand-icons-baidu:before,
+.brand-icons-bandcamp:before,
+.brand-icons-basecamp:before,
+.brand-icons-bathasu:before,
+.brand-icons-bebo:before,
+.brand-icons-behance:before,
+.brand-icons-bigcartel:before,
+.brand-icons-bing:before,
+.brand-icons-bitbucket:before,
+.brand-icons-bitcoin:before,
+.brand-icons-bitly:before,
+.brand-icons-blogger:before,
+.brand-icons-bootstrap:before,
+.brand-icons-brandai:before,
+.brand-icons-buffer:before,
+.brand-icons-buzzfeed:before,
+.brand-icons-cakephp:before,
+.brand-icons-campaignmonitor:before,
+.brand-icons-circleci:before,
+.brand-icons-codecademy:before,
+.brand-icons-codeforces:before,
+.brand-icons-codeigniter:before,
+.brand-icons-codepen:before,
+.brand-icons-coderwall:before,
+.brand-icons-codeschool:before,
+.brand-icons-codio:before,
+.brand-icons-compropago:before,
+.brand-icons-conekta:before,
+.brand-icons-coop:before,
+.brand-icons-coursera:before,
+.brand-icons-css3:before,
+.brand-icons-csswizardry:before,
+.brand-icons-dailymotion:before,
+.brand-icons-deezer:before,
+.brand-icons-delicious:before,
+.brand-icons-designernews:before,
+.brand-icons-deviantart:before,
+.brand-icons-diaspora:before,
+.brand-icons-digg:before,
+.brand-icons-digitalocean:before,
+.brand-icons-discord:before,
+.brand-icons-discourse:before,
+.brand-icons-discover:before,
+.brand-icons-disqus:before,
+.brand-icons-docker:before,
+.brand-icons-draugiemlv:before,
+.brand-icons-dribbble:before,
+.brand-icons-dropbox:before,
+.brand-icons-drupal:before,
+.brand-icons-ebay:before,
+.brand-icons-ello:before,
+.brand-icons-empirekred:before,
+.brand-icons-ethereum:before,
+.brand-icons-etsy:before,
+.brand-icons-eventbrite:before,
+.brand-icons-eventstore:before,
+.brand-icons-evernote:before,
+.brand-icons-everplaces:before,
+.brand-icons-facebook:before,
+.brand-icons-feathub:before,
+.brand-icons-feedly:before,
+.brand-icons-fitbit:before,
+.brand-icons-flickr:before,
+.brand-icons-flipboard:before,
+.brand-icons-fnac:before,
+.brand-icons-foursquare:before,
+.brand-icons-freecodecamp:before,
+.brand-icons-garmin:before,
+.brand-icons-gauges:before,
+.brand-icons-geeklist:before,
+.brand-icons-geocaching:before,
+.brand-icons-gerrit:before,
+.brand-icons-ghost:before,
+.brand-icons-git:before,
+.brand-icons-github:before,
+.brand-icons-gitlab:before,
+.brand-icons-gitter:before,
+.brand-icons-glassdoor:before,
+.brand-icons-gmail:before,
+.brand-icons-gnu:before,
+.brand-icons-goldenline:before,
+.brand-icons-goodreads:before,
+.brand-icons-google:before,
+.brand-icons-googleanalytics:before,
+.brand-icons-googledrive:before,
+.brand-icons-googlehangouts:before,
+.brand-icons-googlekeep:before,
+.brand-icons-googleplay:before,
+.brand-icons-googleplus:before,
+.brand-icons-govuk:before,
+.brand-icons-graphcool:before,
+.brand-icons-graphql:before,
+.brand-icons-gratipay:before,
+.brand-icons-grav:before,
+.brand-icons-gravatar:before,
+.brand-icons-gulp:before,
+.brand-icons-gumtree:before,
+.brand-icons-hackerrank:before,
+.brand-icons-hackster:before,
+.brand-icons-hatenabookmark:before,
+.brand-icons-heroku:before,
+.brand-icons-hipchat:before,
+.brand-icons-hootsuite:before,
+.brand-icons-houzz:before,
+.brand-icons-html5:before,
+.brand-icons-hulu:before,
+.brand-icons-ifixit:before,
+.brand-icons-imdb:before,
+.brand-icons-inkscape:before,
+.brand-icons-instacart:before,
+.brand-icons-instagram:before,
+.brand-icons-instapaper:before,
+.brand-icons-intel:before,
+.brand-icons-intercom:before,
+.brand-icons-invision:before,
+.brand-icons-javascript:before,
+.brand-icons-jekyll:before,
+.brand-icons-jenkins:before,
+.brand-icons-jira:before,
+.brand-icons-joomla:before,
+.brand-icons-jsfiddle:before,
+.brand-icons-json:before,
+.brand-icons-justgiving:before,
+.brand-icons-kaggle:before,
+.brand-icons-keybase:before,
+.brand-icons-khanacademy:before,
+.brand-icons-kickstarter:before,
+.brand-icons-kik:before,
+.brand-icons-kirby:before,
+.brand-icons-klout:before,
+.brand-icons-koding:before,
+.brand-icons-lanyrd:before,
+.brand-icons-laravel:before,
+.brand-icons-lastfm:before,
+.brand-icons-launchpad:before,
+.brand-icons-letterboxd:before,
+.brand-icons-line:before,
+.brand-icons-linkedin:before,
+.brand-icons-linux:before,
+.brand-icons-linuxfoundation:before,
+.brand-icons-livejournal:before,
+.brand-icons-livestream:before,
+.brand-icons-macys:before,
+.brand-icons-magento:before,
+.brand-icons-mailchimp:before,
+.brand-icons-makerbot:before,
+.brand-icons-mastercard:before,
+.brand-icons-mastodon:before,
+.brand-icons-matternet:before,
+.brand-icons-mediatemple:before,
+.brand-icons-medium:before,
+.brand-icons-meetup:before,
+.brand-icons-messenger:before,
+.brand-icons-meteor:before,
+.brand-icons-microgenetics:before,
+.brand-icons-microsoft:before,
+.brand-icons-microsoftaccess:before,
+.brand-icons-microsoftexcel:before,
+.brand-icons-microsoftonenote:before,
+.brand-icons-microsoftoutlook:before,
+.brand-icons-microsoftpowerpoint:before,
+.brand-icons-microsoftword:before,
+.brand-icons-minecraft:before,
+.brand-icons-minutemailer:before,
+.brand-icons-mixcloud:before,
+.brand-icons-monero:before,
+.brand-icons-monkeytie:before,
+.brand-icons-monogram:before,
+.brand-icons-moo:before,
+.brand-icons-mozilla:before,
+.brand-icons-myspace:before,
+.brand-icons-netflix:before,
+.brand-icons-nginx:before,
+.brand-icons-nintendo:before,
+.brand-icons-nintendoswitch:before,
+.brand-icons-nodejs:before,
+.brand-icons-npm:before,
+.brand-icons-nucleo:before,
+.brand-icons-oculus:before,
+.brand-icons-odnoklassniki:before,
+.brand-icons-onedrive:before,
+.brand-icons-opera:before,
+.brand-icons-origin:before,
+.brand-icons-overcast:before,
+.brand-icons-ovh:before,
+.brand-icons-pagekit:before,
+.brand-icons-pandora:before,
+.brand-icons-patreon:before,
+.brand-icons-paypal:before,
+.brand-icons-periscope:before,
+.brand-icons-pinboard:before,
+.brand-icons-pingdom:before,
+.brand-icons-pingup:before,
+.brand-icons-pinterest:before,
+.brand-icons-plangrid:before,
+.brand-icons-playerme:before,
+.brand-icons-playstation:before,
+.brand-icons-plex:before,
+.brand-icons-pluralsight:before,
+.brand-icons-plurk:before,
+.brand-icons-pocket:before,
+.brand-icons-podcasts:before,
+.brand-icons-processwire:before,
+.brand-icons-producthunt:before,
+.brand-icons-protoio:before,
+.brand-icons-protonmail:before,
+.brand-icons-quantopian:before,
+.brand-icons-quora:before,
+.brand-icons-raspberrypi:before,
+.brand-icons-rdio:before,
+.brand-icons-react:before,
+.brand-icons-readability:before,
+.brand-icons-readthedocs:before,
+.brand-icons-reddit:before,
+.brand-icons-redux:before,
+.brand-icons-reverbnation:before,
+.brand-icons-roots:before,
+.brand-icons-rss:before,
+.brand-icons-ruby:before,
+.brand-icons-runkeeper:before,
+.brand-icons-salesforce:before,
+.brand-icons-sass:before,
+.brand-icons-saucelabs:before,
+.brand-icons-scribd:before,
+.brand-icons-sega:before,
+.brand-icons-sellfy:before,
+.brand-icons-sentiayoga:before,
+.brand-icons-sentry:before,
+.brand-icons-serverfault:before,
+.brand-icons-shopify:before,
+.brand-icons-signal:before,
+.brand-icons-simpleicons:before,
+.brand-icons-sinaweibo:before,
+.brand-icons-sitepoint:before,
+.brand-icons-skyliner:before,
+.brand-icons-skype:before,
+.brand-icons-slack:before,
+.brand-icons-slashdot:before,
+.brand-icons-slickpic:before,
+.brand-icons-slides:before,
+.brand-icons-smashingmagazine:before,
+.brand-icons-snapchat:before,
+.brand-icons-sogou:before,
+.brand-icons-songkick:before,
+.brand-icons-soundcloud:before,
+.brand-icons-sourceforge:before,
+.brand-icons-sparkpost:before,
+.brand-icons-speakerdeck:before,
+.brand-icons-spotify:before,
+.brand-icons-spotlight:before,
+.brand-icons-spreaker:before,
+.brand-icons-squarespace:before,
+.brand-icons-stackexchange:before,
+.brand-icons-stackoverflow:before,
+.brand-icons-statamic:before,
+.brand-icons-steam:before,
+.brand-icons-steem:before,
+.brand-icons-stitcher:before,
+.brand-icons-storify:before,
+.brand-icons-strava:before,
+.brand-icons-stripe:before,
+.brand-icons-stubhub:before,
+.brand-icons-stumbleupon:before,
+.brand-icons-styleshare:before,
+.brand-icons-sublimetext:before,
+.brand-icons-subversion:before,
+.brand-icons-superuser:before,
+.brand-icons-swarm:before,
+.brand-icons-symfony:before,
+.brand-icons-ted:before,
+.brand-icons-teespring:before,
+.brand-icons-telegram:before,
+.brand-icons-tencentqq:before,
+.brand-icons-tesla:before,
+.brand-icons-themighty:before,
+.brand-icons-tinder:before,
+.brand-icons-toggl:before,
+.brand-icons-topcoder:before,
+.brand-icons-toptal:before,
+.brand-icons-trakt:before,
+.brand-icons-travisci:before,
+.brand-icons-treehouse:before,
+.brand-icons-trello:before,
+.brand-icons-tripadvisor:before,
+.brand-icons-trulia:before,
+.brand-icons-tumblr:before,
+.brand-icons-twilio:before,
+.brand-icons-twitch:before,
+.brand-icons-twitter:before,
+.brand-icons-twoo:before,
+.brand-icons-uber:before,
+.brand-icons-ubuntu:before,
+.brand-icons-udacity:before,
+.brand-icons-uikit:before,
+.brand-icons-umbraco:before,
+.brand-icons-upwork:before,
+.brand-icons-viadeo:before,
+.brand-icons-viber:before,
+.brand-icons-vimeo:before,
+.brand-icons-vine:before,
+.brand-icons-virb:before,
+.brand-icons-visa:before,
+.brand-icons-visualstudiocode:before,
+.brand-icons-vk:before,
+.brand-icons-vsco:before,
+.brand-icons-vuejs:before,
+.brand-icons-webstorm:before,
+.brand-icons-wechat:before,
+.brand-icons-whatsapp:before,
+.brand-icons-wheniwork:before,
+.brand-icons-wii:before,
+.brand-icons-wiiu:before,
+.brand-icons-wikipedia:before,
+.brand-icons-windows:before,
+.brand-icons-wire:before,
+.brand-icons-wix:before,
+.brand-icons-wordpress:before,
+.brand-icons-wpengine:before,
+.brand-icons-xbox:before,
+.brand-icons-xero:before,
+.brand-icons-xing:before,
+.brand-icons-yahoo:before,
+.brand-icons-yammer:before,
+.brand-icons-yandex:before,
+.brand-icons-ycombinator:before,
+.brand-icons-yelp:before,
+.brand-icons-youtube:before,
+.brand-icons-zapier:before,
+.brand-icons-zendesk:before,
+.brand-icons-zerply:before,
+.brand-icons-zillow:before {
+  font-family: "brand-icons" !important;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: inherit; /**/
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Each */
+.brand-icons-500px:before { content: "\EA01" }
+.brand-icons-aboutme:before { content: "\EA02" }
+.brand-icons-acm:before { content: "\EA03" }
+.brand-icons-addthis:before { content: "\EA04" }
+.brand-icons-aim:before { content: "\EA05" }
+.brand-icons-air:before { content: "\EA06" }
+.brand-icons-airbnb:before { content: "\EA07" }
+.brand-icons-amazon:before { content: "\EA08" }
+.brand-icons-americanexpress:before { content: "\EA09" }
+.brand-icons-android:before { content: "\EA0A" }
+.brand-icons-angellist:before { content: "\EA0B" }
+.brand-icons-apple:before { content: "\EA0C" }
+.brand-icons-appnet:before { content: "\EA0D" }
+.brand-icons-asana:before { content: "\EA0E" }
+.brand-icons-atom:before { content: "\EA0F" }
+.brand-icons-auth0:before { content: "\EA10" }
+.brand-icons-automatic:before { content: "\EA11" }
+.brand-icons-baidu:before { content: "\EA12" }
+.brand-icons-bandcamp:before { content: "\EA13" }
+.brand-icons-basecamp:before { content: "\EA14" }
+.brand-icons-bathasu:before { content: "\EA15" }
+.brand-icons-bebo:before { content: "\EA16" }
+.brand-icons-behance:before { content: "\EA17" }
+.brand-icons-bigcartel:before { content: "\EA18" }
+.brand-icons-bing:before { content: "\EA19" }
+.brand-icons-bitbucket:before { content: "\EA1A" }
+.brand-icons-bitcoin:before { content: "\EA1B" }
+.brand-icons-bitly:before { content: "\EA1C" }
+.brand-icons-blogger:before { content: "\EA1D" }
+.brand-icons-bootstrap:before { content: "\EA1E" }
+.brand-icons-brandai:before { content: "\EA1F" }
+.brand-icons-buffer:before { content: "\EA20" }
+.brand-icons-buzzfeed:before { content: "\EA21" }
+.brand-icons-cakephp:before { content: "\EA22" }
+.brand-icons-campaignmonitor:before { content: "\EA23" }
+.brand-icons-circleci:before { content: "\EA24" }
+.brand-icons-codecademy:before { content: "\EA25" }
+.brand-icons-codeforces:before { content: "\EA26" }
+.brand-icons-codeigniter:before { content: "\EA27" }
+.brand-icons-codepen:before { content: "\EA28" }
+.brand-icons-coderwall:before { content: "\EA29" }
+.brand-icons-codeschool:before { content: "\EA2A" }
+.brand-icons-codio:before { content: "\EA2B" }
+.brand-icons-compropago:before { content: "\EA2C" }
+.brand-icons-conekta:before { content: "\EA2D" }
+.brand-icons-coop:before { content: "\EA2E" }
+.brand-icons-coursera:before { content: "\EA2F" }
+.brand-icons-css3:before { content: "\EA30" }
+.brand-icons-csswizardry:before { content: "\EA31" }
+.brand-icons-dailymotion:before { content: "\EA32" }
+.brand-icons-deezer:before { content: "\EA33" }
+.brand-icons-delicious:before { content: "\EA34" }
+.brand-icons-designernews:before { content: "\EA35" }
+.brand-icons-deviantart:before { content: "\EA36" }
+.brand-icons-diaspora:before { content: "\EA37" }
+.brand-icons-digg:before { content: "\EA38" }
+.brand-icons-digitalocean:before { content: "\EA39" }
+.brand-icons-discord:before { content: "\EA3A" }
+.brand-icons-discourse:before { content: "\EA3B" }
+.brand-icons-discover:before { content: "\EA3C" }
+.brand-icons-disqus:before { content: "\EA3D" }
+.brand-icons-docker:before { content: "\EA3E" }
+.brand-icons-draugiemlv:before { content: "\EA3F" }
+.brand-icons-dribbble:before { content: "\EA40" }
+.brand-icons-dropbox:before { content: "\EA41" }
+.brand-icons-drupal:before { content: "\EA42" }
+.brand-icons-ebay:before { content: "\EA43" }
+.brand-icons-ello:before { content: "\EA44" }
+.brand-icons-empirekred:before { content: "\EA45" }
+.brand-icons-ethereum:before { content: "\EA46" }
+.brand-icons-etsy:before { content: "\EA47" }
+.brand-icons-eventbrite:before { content: "\EA48" }
+.brand-icons-eventstore:before { content: "\EA49" }
+.brand-icons-evernote:before { content: "\EA4A" }
+.brand-icons-everplaces:before { content: "\EA4B" }
+.brand-icons-facebook:before { content: "\EA4C" }
+.brand-icons-feathub:before { content: "\EA4D" }
+.brand-icons-feedly:before { content: "\EA4E" }
+.brand-icons-fitbit:before { content: "\EA4F" }
+.brand-icons-flickr:before { content: "\EA50" }
+.brand-icons-flipboard:before { content: "\EA51" }
+.brand-icons-fnac:before { content: "\EA52" }
+.brand-icons-foursquare:before { content: "\EA53" }
+.brand-icons-freecodecamp:before { content: "\EA54" }
+.brand-icons-garmin:before { content: "\EA55" }
+.brand-icons-gauges:before { content: "\EA56" }
+.brand-icons-geeklist:before { content: "\EA57" }
+.brand-icons-geocaching:before { content: "\EA58" }
+.brand-icons-gerrit:before { content: "\EA59" }
+.brand-icons-ghost:before { content: "\EA5A" }
+.brand-icons-git:before { content: "\EA5B" }
+.brand-icons-github:before { content: "\EA5C" }
+.brand-icons-gitlab:before { content: "\EA5D" }
+.brand-icons-gitter:before { content: "\EA5E" }
+.brand-icons-glassdoor:before { content: "\EA5F" }
+.brand-icons-gmail:before { content: "\EA60" }
+.brand-icons-gnu:before { content: "\EA61" }
+.brand-icons-goldenline:before { content: "\EA62" }
+.brand-icons-goodreads:before { content: "\EA63" }
+.brand-icons-google:before { content: "\EA64" }
+.brand-icons-googleanalytics:before { content: "\EA65" }
+.brand-icons-googledrive:before { content: "\EA66" }
+.brand-icons-googlehangouts:before { content: "\EA67" }
+.brand-icons-googlekeep:before { content: "\EA68" }
+.brand-icons-googleplay:before { content: "\EA69" }
+.brand-icons-googleplus:before { content: "\EA6A" }
+.brand-icons-govuk:before { content: "\EA6B" }
+.brand-icons-graphcool:before { content: "\EA6C" }
+.brand-icons-graphql:before { content: "\EA6D" }
+.brand-icons-gratipay:before { content: "\EA6E" }
+.brand-icons-grav:before { content: "\EA6F" }
+.brand-icons-gravatar:before { content: "\EA70" }
+.brand-icons-gulp:before { content: "\EA71" }
+.brand-icons-gumtree:before { content: "\EA72" }
+.brand-icons-hackerrank:before { content: "\EA73" }
+.brand-icons-hackster:before { content: "\EA74" }
+.brand-icons-hatenabookmark:before { content: "\EA75" }
+.brand-icons-heroku:before { content: "\EA76" }
+.brand-icons-hipchat:before { content: "\EA77" }
+.brand-icons-hootsuite:before { content: "\EA78" }
+.brand-icons-houzz:before { content: "\EA79" }
+.brand-icons-html5:before { content: "\EA7A" }
+.brand-icons-hulu:before { content: "\EA7B" }
+.brand-icons-ifixit:before { content: "\EA7C" }
+.brand-icons-imdb:before { content: "\EA7D" }
+.brand-icons-inkscape:before { content: "\EA7E" }
+.brand-icons-instacart:before { content: "\EA7F" }
+.brand-icons-instagram:before { content: "\EA80" }
+.brand-icons-instapaper:before { content: "\EA81" }
+.brand-icons-intel:before { content: "\EA82" }
+.brand-icons-intercom:before { content: "\EA83" }
+.brand-icons-invision:before { content: "\EA84" }
+.brand-icons-javascript:before { content: "\EA85" }
+.brand-icons-jekyll:before { content: "\EA86" }
+.brand-icons-jenkins:before { content: "\EA87" }
+.brand-icons-jira:before { content: "\EA88" }
+.brand-icons-joomla:before { content: "\EA89" }
+.brand-icons-jsfiddle:before { content: "\EA8A" }
+.brand-icons-json:before { content: "\EA8B" }
+.brand-icons-justgiving:before { content: "\EA8C" }
+.brand-icons-kaggle:before { content: "\EA8D" }
+.brand-icons-keybase:before { content: "\EA8E" }
+.brand-icons-khanacademy:before { content: "\EA8F" }
+.brand-icons-kickstarter:before { content: "\EA90" }
+.brand-icons-kik:before { content: "\EA91" }
+.brand-icons-kirby:before { content: "\EA92" }
+.brand-icons-klout:before { content: "\EA93" }
+.brand-icons-koding:before { content: "\EA94" }
+.brand-icons-lanyrd:before { content: "\EA95" }
+.brand-icons-laravel:before { content: "\EA96" }
+.brand-icons-lastfm:before { content: "\EA97" }
+.brand-icons-launchpad:before { content: "\EA98" }
+.brand-icons-letterboxd:before { content: "\EA99" }
+.brand-icons-line:before { content: "\EA9A" }
+.brand-icons-linkedin:before { content: "\EA9B" }
+.brand-icons-linux:before { content: "\EA9C" }
+.brand-icons-linuxfoundation:before { content: "\EA9D" }
+.brand-icons-livejournal:before { content: "\EA9E" }
+.brand-icons-livestream:before { content: "\EA9F" }
+.brand-icons-macys:before { content: "\EAA0" }
+.brand-icons-magento:before { content: "\EAA1" }
+.brand-icons-mailchimp:before { content: "\EAA2" }
+.brand-icons-makerbot:before { content: "\EAA3" }
+.brand-icons-mastercard:before { content: "\EAA4" }
+.brand-icons-mastodon:before { content: "\EAA5" }
+.brand-icons-matternet:before { content: "\EAA6" }
+.brand-icons-mediatemple:before { content: "\EAA7" }
+.brand-icons-medium:before { content: "\EAA8" }
+.brand-icons-meetup:before { content: "\EAA9" }
+.brand-icons-messenger:before { content: "\EAAA" }
+.brand-icons-meteor:before { content: "\EAAB" }
+.brand-icons-microgenetics:before { content: "\EAAC" }
+.brand-icons-microsoft:before { content: "\EAAD" }
+.brand-icons-microsoftaccess:before { content: "\EAAE" }
+.brand-icons-microsoftexcel:before { content: "\EAAF" }
+.brand-icons-microsoftonenote:before { content: "\EAB0" }
+.brand-icons-microsoftoutlook:before { content: "\EAB1" }
+.brand-icons-microsoftpowerpoint:before { content: "\EAB2" }
+.brand-icons-microsoftword:before { content: "\EAB3" }
+.brand-icons-minecraft:before { content: "\EAB4" }
+.brand-icons-minutemailer:before { content: "\EAB5" }
+.brand-icons-mixcloud:before { content: "\EAB6" }
+.brand-icons-monero:before { content: "\EAB7" }
+.brand-icons-monkeytie:before { content: "\EAB8" }
+.brand-icons-monogram:before { content: "\EAB9" }
+.brand-icons-moo:before { content: "\EABA" }
+.brand-icons-mozilla:before { content: "\EABB" }
+.brand-icons-myspace:before { content: "\EABC" }
+.brand-icons-netflix:before { content: "\EABD" }
+.brand-icons-nginx:before { content: "\EABE" }
+.brand-icons-nintendo:before { content: "\EABF" }
+.brand-icons-nintendoswitch:before { content: "\EAC0" }
+.brand-icons-nodejs:before { content: "\EAC1" }
+.brand-icons-npm:before { content: "\EAC2" }
+.brand-icons-nucleo:before { content: "\EAC3" }
+.brand-icons-oculus:before { content: "\EAC4" }
+.brand-icons-odnoklassniki:before { content: "\EAC5" }
+.brand-icons-onedrive:before { content: "\EAC6" }
+.brand-icons-opera:before { content: "\EAC7" }
+.brand-icons-origin:before { content: "\EAC8" }
+.brand-icons-overcast:before { content: "\EAC9" }
+.brand-icons-ovh:before { content: "\EACA" }
+.brand-icons-pagekit:before { content: "\EACB" }
+.brand-icons-pandora:before { content: "\EACC" }
+.brand-icons-patreon:before { content: "\EACD" }
+.brand-icons-paypal:before { content: "\EACE" }
+.brand-icons-periscope:before { content: "\EACF" }
+.brand-icons-pinboard:before { content: "\EAD0" }
+.brand-icons-pingdom:before { content: "\EAD1" }
+.brand-icons-pingup:before { content: "\EAD2" }
+.brand-icons-pinterest:before { content: "\EAD3" }
+.brand-icons-plangrid:before { content: "\EAD4" }
+.brand-icons-playerme:before { content: "\EAD5" }
+.brand-icons-playstation:before { content: "\EAD6" }
+.brand-icons-plex:before { content: "\EAD7" }
+.brand-icons-pluralsight:before { content: "\EAD8" }
+.brand-icons-plurk:before { content: "\EAD9" }
+.brand-icons-pocket:before { content: "\EADA" }
+.brand-icons-podcasts:before { content: "\EADB" }
+.brand-icons-processwire:before { content: "\EADC" }
+.brand-icons-producthunt:before { content: "\EADD" }
+.brand-icons-protoio:before { content: "\EADE" }
+.brand-icons-protonmail:before { content: "\EADF" }
+.brand-icons-quantopian:before { content: "\EAE0" }
+.brand-icons-quora:before { content: "\EAE1" }
+.brand-icons-raspberrypi:before { content: "\EAE2" }
+.brand-icons-rdio:before { content: "\EAE3" }
+.brand-icons-react:before { content: "\EAE4" }
+.brand-icons-readability:before { content: "\EAE5" }
+.brand-icons-readthedocs:before { content: "\EAE6" }
+.brand-icons-reddit:before { content: "\EAE7" }
+.brand-icons-redux:before { content: "\EAE8" }
+.brand-icons-reverbnation:before { content: "\EAE9" }
+.brand-icons-roots:before { content: "\EAEA" }
+.brand-icons-rss:before { content: "\EAEB" }
+.brand-icons-ruby:before { content: "\EAEC" }
+.brand-icons-runkeeper:before { content: "\EAED" }
+.brand-icons-salesforce:before { content: "\EAEE" }
+.brand-icons-sass:before { content: "\EAEF" }
+.brand-icons-saucelabs:before { content: "\EAF0" }
+.brand-icons-scribd:before { content: "\EAF1" }
+.brand-icons-sega:before { content: "\EAF2" }
+.brand-icons-sellfy:before { content: "\EAF3" }
+.brand-icons-sentiayoga:before { content: "\EAF4" }
+.brand-icons-sentry:before { content: "\EAF5" }
+.brand-icons-serverfault:before { content: "\EAF6" }
+.brand-icons-shopify:before { content: "\EAF7" }
+.brand-icons-signal:before { content: "\EAF8" }
+.brand-icons-simpleicons:before { content: "\EAF9" }
+.brand-icons-sinaweibo:before { content: "\EAFA" }
+.brand-icons-sitepoint:before { content: "\EAFB" }
+.brand-icons-skyliner:before { content: "\EAFC" }
+.brand-icons-skype:before { content: "\EAFD" }
+.brand-icons-slack:before { content: "\EAFE" }
+.brand-icons-slashdot:before { content: "\EAFF" }
+.brand-icons-slickpic:before { content: "\EB00" }
+.brand-icons-slides:before { content: "\EB01" }
+.brand-icons-smashingmagazine:before { content: "\EB02" }
+.brand-icons-snapchat:before { content: "\EB03" }
+.brand-icons-sogou:before { content: "\EB04" }
+.brand-icons-songkick:before { content: "\EB05" }
+.brand-icons-soundcloud:before { content: "\EB06" }
+.brand-icons-sourceforge:before { content: "\EB07" }
+.brand-icons-sparkpost:before { content: "\EB08" }
+.brand-icons-speakerdeck:before { content: "\EB09" }
+.brand-icons-spotify:before { content: "\EB0A" }
+.brand-icons-spotlight:before { content: "\EB0B" }
+.brand-icons-spreaker:before { content: "\EB0C" }
+.brand-icons-squarespace:before { content: "\EB0D" }
+.brand-icons-stackexchange:before { content: "\EB0E" }
+.brand-icons-stackoverflow:before { content: "\EB0F" }
+.brand-icons-statamic:before { content: "\EB10" }
+.brand-icons-steam:before { content: "\EB11" }
+.brand-icons-steem:before { content: "\EB12" }
+.brand-icons-stitcher:before { content: "\EB13" }
+.brand-icons-storify:before { content: "\EB14" }
+.brand-icons-strava:before { content: "\EB15" }
+.brand-icons-stripe:before { content: "\EB16" }
+.brand-icons-stubhub:before { content: "\EB17" }
+.brand-icons-stumbleupon:before { content: "\EB18" }
+.brand-icons-styleshare:before { content: "\EB19" }
+.brand-icons-sublimetext:before { content: "\EB1A" }
+.brand-icons-subversion:before { content: "\EB1B" }
+.brand-icons-superuser:before { content: "\EB1C" }
+.brand-icons-swarm:before { content: "\EB1D" }
+.brand-icons-symfony:before { content: "\EB1E" }
+.brand-icons-ted:before { content: "\EB1F" }
+.brand-icons-teespring:before { content: "\EB20" }
+.brand-icons-telegram:before { content: "\EB21" }
+.brand-icons-tencentqq:before { content: "\EB22" }
+.brand-icons-tesla:before { content: "\EB23" }
+.brand-icons-themighty:before { content: "\EB24" }
+.brand-icons-tinder:before { content: "\EB25" }
+.brand-icons-toggl:before { content: "\EB26" }
+.brand-icons-topcoder:before { content: "\EB27" }
+.brand-icons-toptal:before { content: "\EB28" }
+.brand-icons-trakt:before { content: "\EB29" }
+.brand-icons-travisci:before { content: "\EB2A" }
+.brand-icons-treehouse:before { content: "\EB2B" }
+.brand-icons-trello:before { content: "\EB2C" }
+.brand-icons-tripadvisor:before { content: "\EB2D" }
+.brand-icons-trulia:before { content: "\EB2E" }
+.brand-icons-tumblr:before { content: "\EB2F" }
+.brand-icons-twilio:before { content: "\EB30" }
+.brand-icons-twitch:before { content: "\EB31" }
+.brand-icons-twitter:before { content: "\EB32" }
+.brand-icons-twoo:before { content: "\EB33" }
+.brand-icons-uber:before { content: "\EB34" }
+.brand-icons-ubuntu:before { content: "\EB35" }
+.brand-icons-udacity:before { content: "\EB36" }
+.brand-icons-uikit:before { content: "\EB37" }
+.brand-icons-umbraco:before { content: "\EB38" }
+.brand-icons-upwork:before { content: "\EB39" }
+.brand-icons-viadeo:before { content: "\EB3A" }
+.brand-icons-viber:before { content: "\EB3B" }
+.brand-icons-vimeo:before { content: "\EB3C" }
+.brand-icons-vine:before { content: "\EB3D" }
+.brand-icons-virb:before { content: "\EB3E" }
+.brand-icons-visa:before { content: "\EB3F" }
+.brand-icons-visualstudiocode:before { content: "\EB40" }
+.brand-icons-vk:before { content: "\EB41" }
+.brand-icons-vsco:before { content: "\EB42" }
+.brand-icons-vuejs:before { content: "\EB43" }
+.brand-icons-webstorm:before { content: "\EB44" }
+.brand-icons-wechat:before { content: "\EB45" }
+.brand-icons-whatsapp:before { content: "\EB46" }
+.brand-icons-wheniwork:before { content: "\EB47" }
+.brand-icons-wii:before { content: "\EB48" }
+.brand-icons-wiiu:before { content: "\EB49" }
+.brand-icons-wikipedia:before { content: "\EB4A" }
+.brand-icons-windows:before { content: "\EB4B" }
+.brand-icons-wire:before { content: "\EB4C" }
+.brand-icons-wix:before { content: "\EB4D" }
+.brand-icons-wordpress:before { content: "\EB4E" }
+.brand-icons-wpengine:before { content: "\EB4F" }
+.brand-icons-xbox:before { content: "\EB50" }
+.brand-icons-xero:before { content: "\EB51" }
+.brand-icons-xing:before { content: "\EB52" }
+.brand-icons-yahoo:before { content: "\EB53" }
+.brand-icons-yammer:before { content: "\EB54" }
+.brand-icons-yandex:before { content: "\EB55" }
+.brand-icons-ycombinator:before { content: "\EB56" }
+.brand-icons-yelp:before { content: "\EB57" }
+.brand-icons-youtube:before { content: "\EB58" }
+.brand-icons-zapier:before { content: "\EB59" }
+.brand-icons-zendesk:before { content: "\EB5A" }
+.brand-icons-zerply:before { content: "\EB5B" }
+.brand-icons-zillow:before { content: "\EB5C" }
+
