@@ -1,4 +1,11 @@
-/* Font */
+/**
+ * brand-icons - A beautiful svg + fonts + sass + css collection of brand logos
+ * @author Yefferson Marín - https://github.com/yammadev
+ * @version 1.1.0
+ * @link https://github.com/yammadev/brand-icons#readme
+ * @license MIT
+ */
+ /* Font */
 @font-face {
   font-family: "brand-icons";
   src: url('../fonts/brand-icons.eot');
@@ -7,7 +14,7 @@
        url('../fonts/brand-icons.ttf') format('truetype'),
        url('../fonts/brand-icons.svg#brand-icons') format('svg');
   font-weight: normal;
-  font-style: normal; 
+  font-style: normal;
 }
 
 /* Icons */
