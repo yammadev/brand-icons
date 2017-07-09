@@ -1,7 +1,7 @@
 /**
  * brand-icons - A svg + fonts + sass + css collection of brand logos
  * @author Yefferson Marín - https://github.com/yammadev
- * @version 1.2.4
+ * @version 1.1.6
  * @link https://github.com/yammadev/brand-icons#readme
  * @license MIT
  */
@@ -17,7 +17,7 @@
   font-style: normal;
 }
 
-/* Icons */
+/* Wrapper */
 .brand-icons-500px:before,
 .brand-icons-aboutme:before,
 .brand-icons-acm:before,
@@ -372,12 +372,12 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: inherit; /**/
+  line-height: inherit;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Each */
+/* Brands */
 .brand-icons-500px:before { content: "\EA01" }
 .brand-icons-aboutme:before { content: "\EA02" }
 .brand-icons-acm:before { content: "\EA03" }

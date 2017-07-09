@@ -1,12 +1,12 @@
 /**
  * brand-icons - A svg + fonts + sass + css collection of brand logos
  * @author Yefferson Marín - https://github.com/yammadev
- * @version 1.2.4
+ * @version 1.1.6
  * @link https://github.com/yammadev/brand-icons#readme
  * @license MIT
  */
  /* Variables */
-$icons: (
+$brands: (
   500px: "\EA01",
   aboutme: "\EA02",
   acm: "\EA03",
@@ -373,20 +373,19 @@ $icons: (
 .brand-icons {
   font-family: "brand-icons" !important;
   display: inline-block;
-
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: inherit; /**/
+  line-height: inherit;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Each */
-@each $name, $icon in $icons {
+/* Brands */
+@each $name, $brand in $brands {
   .brand-icons-#{$name}:before {
     @extend .brand-icons;
-    content: $icon;
+    content: $brand;
   }
 }
